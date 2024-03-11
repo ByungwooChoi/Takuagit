@@ -10,7 +10,7 @@ function Test1_Q2(){
     return (
         <div className="App">
           <Header />
-          <h1>Test1_Q2 내 최애의 병크는?</h1>
+          <h1>Test1_Q2 내 최애의 병크는 띠용?</h1>
           <label>
             당신의 이름:
             <input type="text" value={yourName} onChange={(e) => setYourName(e.target.value)} />
