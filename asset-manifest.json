@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Takuagit/static/css/main.69564579.css",
-    "main.js": "/Takuagit/static/js/main.cce92ecc.js",
+    "main.js": "/Takuagit/static/js/main.45c9de27.js",
     "static/js/787.90ebaad4.chunk.js": "/Takuagit/static/js/787.90ebaad4.chunk.js",
     "static/media/taku_cat.png": "/Takuagit/static/media/taku_cat.bd15563d5a5133f05576.png",
     "index.html": "/Takuagit/index.html",
     "main.69564579.css.map": "/Takuagit/static/css/main.69564579.css.map",
-    "main.cce92ecc.js.map": "/Takuagit/static/js/main.cce92ecc.js.map",
+    "main.45c9de27.js.map": "/Takuagit/static/js/main.45c9de27.js.map",
     "787.90ebaad4.chunk.js.map": "/Takuagit/static/js/787.90ebaad4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69564579.css",
-    "static/js/main.cce92ecc.js"
+    "static/js/main.45c9de27.js"
   ]
 }
