@@ -30,3 +30,30 @@ p {
   margin-top: 20px;
   font-style: italic;
 }
+
+.questionList{
+  flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.question{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+}
+
+.answerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+  box-shadow: 2px 2px 0px #ededed;
+  border: 1px solid #ededed;
+  margin: 0px 20px 15px 20px;
+  border-radius: 10px;
+}
