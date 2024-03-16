@@ -26,7 +26,7 @@ function Test1_Q1_result(){
 
         const randomIndex = Math.floor(Math.random() * days.length);
         let sendText = `${yourName}은(는) ${characterName}와 좀비 아포칼립스에서 ${days[randomIndex]} 생존할 수 있습니다.`
-        let sendUrl = "devpad.tistory.com/"; // 전달할 URL
+        let sendUrl = "https://ByungwooChoi.github.io/Takuagit"; // 전달할 URL
         window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
     };
 

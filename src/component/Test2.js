@@ -87,7 +87,7 @@ function Test2() {
 
     const generateSentence = () => {
         let sendText = mbtiContents.phrase + ' ' + mbtiContents.contents;
-        let sendUrl = "devpad.tistory.com/"; // 전달할 URL
+        let sendUrl = "https://ByungwooChoi.github.io/Takuagit"; // 전달할 URL
         window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
     };
 
