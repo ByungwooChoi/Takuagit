@@ -13,7 +13,6 @@ import Test1_Q2_result from './component/Test1_Q2_result';
 function App() {
   return(
       <div className="App">
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -40,7 +39,6 @@ function App() {
             <Test1_Q2_result />
           </Route>
         </Switch>
-        </BrowserRouter>
       </div>
   );
 }
