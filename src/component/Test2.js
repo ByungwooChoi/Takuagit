@@ -94,7 +94,12 @@ function Test2() {
 
     return(
         <div className="test2">
-            {page===0?
+            {page===0?//테스트 시작전
+                <div>
+                    <h1>발렌타인</h1>
+                    <button onClick={()=>setPage(2)}>Start!</button>
+                </div>
+            :page===2?
             <div>
                 <Header />
                 <label>
@@ -109,7 +114,7 @@ function Test2() {
                     테스트 시작하기
                 </div>
             </div>
-            :page <= questionList.length?
+            :page <= questionList.length?//테스트 진행 중
             <div>
                 <div>{`${page} / ${questionList.length}`}</div>
 
@@ -135,7 +140,7 @@ function Test2() {
                     </div>
                 )}
             </div>
-            :
+            ://테스트 끝난 후
             <div>
                 <div onClick={()=>window.location.reload()}>다시하기</div>
                 <div>
